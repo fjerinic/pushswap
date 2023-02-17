@@ -6,7 +6,7 @@
 /*   By: fjerinic <fjerinic@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 15:15:05 by fjerinic          #+#    #+#             */
-/*   Updated: 2023/02/17 15:15:17 by fjerinic         ###   ########.fr       */
+/*   Updated: 2023/02/17 17:14:04 by fjerinic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ int	fn_stack_size(t_struct	*stack)
 // fills stack a with values from command line arguments
 t_struct	*fill_stack(int argc, char **argv)
 {
-	t_struct		*stack_a;
+	t_struct	*stack_a;
 	long int	number;
 	int			n;
 

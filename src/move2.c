@@ -6,7 +6,7 @@
 /*   By: fjerinic <fjerinic@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 15:13:42 by fjerinic          #+#    #+#             */
-/*   Updated: 2023/02/17 15:13:57 by fjerinic         ###   ########.fr       */
+/*   Updated: 2023/02/17 17:17:38 by fjerinic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ void	sa(t_struct **stack_a)
 	swap(*stack_a);
 	ft_putstr("sa\n");
 }
+
 // swaps two top elements of stack b
 void	sb(t_struct **stack_b)
 {

@@ -6,7 +6,7 @@
 /*   By: fjerinic <fjerinic@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 15:30:58 by fjerinic          #+#    #+#             */
-/*   Updated: 2023/02/17 15:31:24 by fjerinic         ###   ########.fr       */
+/*   Updated: 2023/02/17 17:18:33 by fjerinic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,6 @@ void	sort(t_struct **stack_a, t_struct **stack_b)
 	if (!check_sorted(*stack_a))
 		shift_struct(stack_a);
 }
-
 
 int	find_highest_index(t_struct *stack)
 {

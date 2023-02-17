@@ -6,7 +6,7 @@
 /*   By: fjerinic <fjerinic@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 15:08:17 by fjerinic          #+#    #+#             */
-/*   Updated: 2023/02/17 15:08:36 by fjerinic         ###   ########.fr       */
+/*   Updated: 2023/02/17 17:17:11 by fjerinic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,17 +69,17 @@ void	move(t_struct **a, t_struct **b, int cost_a, int cost_b)
 void	cheapest_move(t_struct **stack_a, t_struct **stack_b)
 {
 	t_struct	*tmp;
-	int		cheapest;
-	int		cost_a;
-	int		cost_b;
+	int			cheapest;
+	int			cost_a;
+	int			cost_b;
 
 	tmp = *stack_b;
 	cheapest = INT_MAX;
 	while (tmp)
 	{
-		if (to_absolute(tmp->cost_a) + to_absolute(tmp->cost_b) < to_absolute(cheapest))
+		if (mkabs(tmp->cost_a) + mkabs(tmp->cost_b) < mkabs(cheapest))
 		{
-			cheapest = to_absolute(tmp->cost_b) + to_absolute(tmp->cost_a);
+			cheapest = mkabs(tmp->cost_b) + mkabs(tmp->cost_a);
 			cost_a = tmp->cost_a;
 			cost_b = tmp->cost_b;
 		}
@@ -98,8 +98,8 @@ void	get_cost(t_struct **stack_a, t_struct **stack_b)
 {
 	t_struct	*tmp_a;
 	t_struct	*tmp_b;
-	int		size_a;
-	int		size_b;
+	int			size_a;
+	int			size_b;
 
 	tmp_a = *stack_a;
 	tmp_b = *stack_b;

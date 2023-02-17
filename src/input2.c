@@ -6,7 +6,7 @@
 /*   By: fjerinic <fjerinic@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 15:25:14 by fjerinic          #+#    #+#             */
-/*   Updated: 2023/02/17 15:25:23 by fjerinic         ###   ########.fr       */
+/*   Updated: 2023/02/17 17:14:44 by fjerinic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	indexation(t_struct *stack_a, int stack_size)
 {
 	t_struct	*ptr;
 	t_struct	*highest;
-	int		value;
+	int			value;
 
 	while (--stack_size > 0)
 	{

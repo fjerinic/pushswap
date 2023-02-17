@@ -6,7 +6,7 @@
 /*   By: fjerinic <fjerinic@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 15:07:03 by fjerinic          #+#    #+#             */
-/*   Updated: 2023/02/17 15:07:19 by fjerinic         ###   ########.fr       */
+/*   Updated: 2023/02/17 17:19:10 by fjerinic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ void	ft_putstr(char *str)
 }
 
 // returns absolute value of an int
-int	to_absolute(int number)
+int	mkabs(int number)
 {
 	if (number < 0)
 		return (number * -1);

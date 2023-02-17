@@ -6,7 +6,7 @@
 /*   By: fjerinic <fjerinic@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/02 23:20:09 by fjerinic          #+#    #+#             */
-/*   Updated: 2023/02/17 16:16:12 by fjerinic         ###   ########.fr       */
+/*   Updated: 2023/02/17 17:16:47 by fjerinic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ int			fn_stack_size(t_struct	*stack);
 void		free_stack(t_struct **stack);
 long int	ft_atoi(const char *str);
 void		ft_putstr(char *str);
-int			to_absolute(int number);
+int			mkabs(int number);
 void		exit_error(t_struct **stack_a, t_struct **stack_b);
 int			check_input(char **argv);
 int			is_digit(char c);

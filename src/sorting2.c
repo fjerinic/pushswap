@@ -6,7 +6,7 @@
 /*   By: fjerinic <fjerinic@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 15:26:52 by fjerinic          #+#    #+#             */
-/*   Updated: 2023/02/17 16:08:35 by fjerinic         ###   ########.fr       */
+/*   Updated: 2023/02/17 17:19:00 by fjerinic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ int	get_target(t_struct **a, int b_idx,
 void	get_target_position(t_struct **a, t_struct **b)
 {
 	t_struct	*tmp_b;
-	int		t_position;
+	int			t_position;
 
 	tmp_b = *b;
 	get_position(a);
@@ -62,8 +62,8 @@ void	get_target_position(t_struct **a, t_struct **b)
 int	get_min_index_pos(t_struct **stack)
 {
 	t_struct	*tmp;
-	int		lowest_index;
-	int		lowest_pos;
+	int			lowest_index;
+	int			lowest_pos;
 
 	tmp = *stack;
 	lowest_index = INT_MAX;
@@ -84,7 +84,7 @@ int	get_min_index_pos(t_struct **stack)
 void	get_position(t_struct **stack)
 {
 	t_struct	*tmp;
-	int		n;
+	int			n;
 
 	tmp = *stack;
 	n = 0;
