@@ -6,7 +6,7 @@
 /*   By: fjerinic <fjerinic@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/02 23:39:46 by fjerinic          #+#    #+#             */
-/*   Updated: 2023/02/17 17:15:26 by fjerinic         ###   ########.fr       */
+/*   Updated: 2023/02/17 17:27:46 by fjerinic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	main(int argc, char **argv)
 	t_struct	*stack_a;
 	t_struct	*stack_b;
 	int			stack_size;
-	
+
 	if (argc < 2)
 		return (0);
 	if (!check_input(argv))
