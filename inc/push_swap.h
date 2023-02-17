@@ -6,7 +6,7 @@
 /*   By: fjerinic <fjerinic@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/02 23:20:09 by fjerinic          #+#    #+#             */
-/*   Updated: 2023/02/17 17:30:45 by fjerinic         ###   ########.fr       */
+/*   Updated: 2023/02/17 17:36:29 by fjerinic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,8 +67,8 @@ int			is_sign(char c);
 int			nbstr_cmp(const char *s1, const char *s2);
 void		push_swap(t_struct **stack_a, t_struct **stack_b, int stack_size);
 void		get_position(t_struct **stack);
-void		rev_rotate_both(t_struct **a, t_struct **b,
-												int *cost_a, int *cost_b);
+void        rev_rotate_both(t_struct **a, t_struct **b, \
+                        int *cost_a, int *cost_b);
 void		rotate_both(t_struct **a, t_struct **b, int *cost_a, int *cost_b);
 void		rev_rotate(t_struct **stack);
 void		push_all_save_three(t_struct **stack_a, t_struct **stack_b);
